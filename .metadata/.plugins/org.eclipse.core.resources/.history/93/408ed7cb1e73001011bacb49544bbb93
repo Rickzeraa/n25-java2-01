@@ -1,0 +1,17 @@
+package br.com.senaisp.bauru.secao03.aula07;
+
+import java.util.Scanner;
+
+public class Exemplo04 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(Exemplo04.class
+				.getResourceAsStream("teste_arquivo.txt"));
+		while (sc.hasNext()) {
+			String linha = sc.nextLine();
+			System.out.println(linha);
+		}
+		sc.close();
+	}
+
+}

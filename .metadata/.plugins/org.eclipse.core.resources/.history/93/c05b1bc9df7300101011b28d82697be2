@@ -1,0 +1,25 @@
+package br.com.senaisp.bauru.secao04.aula08;
+
+public class Calculadora {
+	//Propriedades - Campos
+	private double imposto;
+	private double comissao;
+	//Constructor
+	public Calculadora() {
+		imposto = 5;
+		comissao = 15;
+	}
+	//Comportamentos - Getters e Setters
+	public double getImposto() {
+		return imposto;
+	}
+	public void setImposto(double imposto) {
+		this.imposto = imposto;
+	}
+	public double getComissao() {
+		return comissao;
+	}
+	public void setComissao(double comissao) {
+		this.comissao = comissao;
+	}
+}

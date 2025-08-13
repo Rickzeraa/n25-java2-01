@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ShoppingCart01.java&apos; to &apos;br.com.senaisp.bauru.secao03.aula05.ShoppingCart01.java&apos;&#x0D;&#x0A;- Original project: &apos;n25_java2_01&apos;&#x0D;&#x0A;- Destination element: &apos;br.com.senaisp.bauru.secao03.aula05.ShoppingCart01.java&apos;&#x0D;&#x0A;- Original element: &apos;br.com.senaisp.bauru.secao03.aula05.ShoppingCart01.java&apos;" description="Copy compilation unit" destination="/src&lt;br.com.senaisp.bauru.secao03.aula05{ShoppingCart01.java" element1="/src&lt;br.com.senaisp.bauru.secao03.aula05{ShoppingCart01.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1754347787661" units="1" version="1.0"/>
+</session>

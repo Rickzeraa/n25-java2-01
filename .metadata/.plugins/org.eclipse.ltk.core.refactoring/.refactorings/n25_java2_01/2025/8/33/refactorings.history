@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;NameMaker.java&apos; to &apos;n25_java2_01/src/br.com.senaisp.bauru.secao04.aula08&apos;&#x0D;&#x0A;- Original project: &apos;n25_java2_01&apos;&#x0D;&#x0A;- Destination element: &apos;n25_java2_01/src/br.com.senaisp.bauru.secao04.aula08&apos;&#x0D;&#x0A;- Original element: &apos;br.com.senaisp.bauru.secao03.aula07.NameMaker.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;br.com.senaisp.bauru.secao04.aula08" element1="/src&lt;br.com.senaisp.bauru.secao03.aula07{NameMaker.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1754948499674" units="1" version="1.0"/>
+</session>
