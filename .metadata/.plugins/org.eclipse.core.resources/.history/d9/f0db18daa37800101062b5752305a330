@@ -1,0 +1,11 @@
+package br.com.senaisp.bauru.secao05.aula11;
+
+public class CartaTeste {
+
+	public static void main(String[] args) {
+		Carta ct = new Carta(3,9);
+		System.out.println(ct);
+
+	}
+
+}
