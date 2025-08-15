@@ -1,0 +1,10 @@
+package br.com.senaisp.bauru.secao06.aula12;
+
+public class TicTacTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

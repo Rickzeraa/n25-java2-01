@@ -1,0 +1,49 @@
+package br.com.senaisp.bauru.secao06.aula12;
+
+import java.util.Random;
+
+public class TicTacToe {
+	private char[] tab; //tabuleiro
+	private String nomePlayer;
+	private byte[] posDisp;
+	private Random rnd;
+	//Constructor
+	public TicTacToe() {
+		tab = new char[9]; //criando vetor de 9 posições
+		rnd = new Random();
+		posDisp = new byte[9];
+		//inicializar com indices disponiveis
+		for(int i=0;i<9;i++) {
+			posDisp[i]=(byte) i;
+		}
+	}
+	public String getNomePlayer() {
+		return nomePlayer;
+	}
+	public void setNomePlayer(String nomePlayer) {
+		this.nomePlayer = nomePlayer;
+	}
+	public void iniciarTabuleiro() {
+		for(int i=0; i<9; i++) {
+			tab[i] = '_';
+		}
+		tab[4] = 'X';
+		atualizarPosLivre(4);
+	}
+	private void atualizarPosLivre(int i) {
+		byte[] ap = posDisp;
+		posDisp = new byte[ap.length - 1];
+		for (int j=0,k=0;j<ap.length;j++) {
+			if (ap[j]!=i) {
+				posDisp[k++] = ap[j];
+			}
+		}
+	}
+	public void mostrarTabuleiro() {
+		System.out.println(tab[0]+ " | "+tab[1]+ " | " + tab[2]);
+		System.out.println(tab[3]+ " | "+tab[4]+ " | " + tab[5]);
+		System.out.println(tab[6]+ " | "+tab[7]+ " | " + tab[8]);
+		System.out.println();
+	}
+
+}
