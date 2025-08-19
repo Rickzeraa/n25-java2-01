@@ -1,0 +1,9 @@
+package br.com.senaisp.bauru.secao08.aula13;
+
+public class BlackJackPlayer {
+	private String nome;
+	private ArrayList<Carta> cartas;
+	private boolean perdedor;
+	private boolean ganhador;
+
+}

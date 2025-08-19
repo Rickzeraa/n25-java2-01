@@ -13,10 +13,14 @@ public class TicTacToe {
 		tab = new char[9]; //criando vetor de 9 posições
 		rnd = new Random();
 		posDisp = new byte[9];
+		vencedor = "";
 		//inicializar com indices disponiveis
 		for(int i=0;i<9;i++) {
 			posDisp[i]=(byte) i;
 		}
+	}
+	public String getVencedor() {
+		return vencedor;
 	}
 	public String getNomePlayer() {
 		return nomePlayer;
@@ -57,10 +61,34 @@ public class TicTacToe {
 	public void lancarJogada(int id) {
 		tab[id] = 'O';
 		atualizarPosLivre(id);
+		vencedor = "Sem Vencedor";
+		if (ehFimJogo())
+			vencedor = "Empate";
+		if (posDisp.length>0 && ehFimJogo())
+			vencedor = getNomePlayer();
 		if (posDisp.length>0 && !ehFimJogo()) {
 			int idx = rnd.nextInt(posDisp.length);
 			tab[posDisp[idx]] = 'X';
 			atualizarPosLivre(posDisp[idx]);
+			if (posDisp.length>0 && ehFimJogo())
+				vencedor = "Computador";
+			if (posDisp.length==0 && ehFimJogo()) {
+				vencedor = "Empate";
+				//Verificar se ocorreu uma trinca do computador
+				boolean teste =  tab[0]=='X' && tab[1]=='X' && tab[2]=='X';
+				teste = teste || tab[3]=='X' && tab[4]=='X' && tab[5]=='X';
+				teste = teste || tab[6]=='X' && tab[7]=='X' && tab[8]=='X';
+				//Verificando as colunas
+				teste = teste || tab[0]=='X' && tab[3]=='X' && tab[6]=='X';
+				teste = teste || tab[1]=='X' && tab[4]=='X' && tab[7]=='X';
+				teste = teste || tab[2]=='X' && tab[5]=='X' && tab[8]=='X';
+				//verificando as diagonais
+				teste = teste || tab[0]=='X' && tab[4]=='X' && tab[8]=='X';
+				teste = teste || tab[2]=='X' && tab[4]=='X' && tab[6]=='X';
+				//Se teste for verdadeiro, então computador ganhou
+				if (teste)
+					vencedor = "Computador";
+			}
 		}
 	}
 	public boolean ehFimJogo() {
