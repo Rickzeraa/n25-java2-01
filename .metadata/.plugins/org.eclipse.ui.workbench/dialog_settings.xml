@@ -12,10 +12,11 @@
 			<item value="org.eclipse.ui.actions"/>
 		</list>
 		<list key="textEntries">
-			<item value="1"/>
+			<item value="2"/>
 		</list>
 		<list key="textArray">
 			<item value="gett"/>
+			<item value="get"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
