@@ -1,0 +1,45 @@
+package br.com.senaisp.bauru.secao08.aula13;
+
+import java.util.Random;
+
+import br.com.senaisp.bauru.secao05.aula11.Cartas;
+
+
+public class Baralho {
+	private Cartas[] cartas;
+	private Random rnd;
+	private byte[] disponiveis;
+	//Constructor
+	public Baralho() {
+		cartas = new Cartas[cartas.NAIPES.length * Cartas.NUMEROS.length];
+		rnd = new Random();
+		disponiveis = new byte[cartas.length];
+		//Criando as cartas
+		for (int i=0; i<cartas.length; i++) {
+			cartas[i] = new Cartas( i / 13, i % 13);
+			//Guardando os índices disponiveis
+			disponiveis[i] = (byte) i;
+			
+		}
+		
+	}
+	public Cartas sortearCarta() {
+		Cartas ret = null;
+		if (disponiveis.length>0) {
+			int idx = rnd.nextInt(disponiveis.length);
+			ret = cartas [idx];
+			atualizarDisponiveis(idx);
+		}
+		return ret;
+	}
+	private void atualizarDisponiveis(int idx) {
+		byte[] apoio = disponiveis; //copiando endereço do vetor
+		disponiveis = new byte[apoio.length - 1]; //diminuo 1
+		for(int i=0, j=0;i<apoio.length;i++) {
+			if (i!=idx) {
+				disponiveis[j++] = apoio[i];
+			}
+		}
+	}
+}
+

@@ -27,22 +27,7 @@ public class Carta {
 	public int getValor() {
 		return valor;
 	}
-	@Override
-	public String toString() {
-		            //1234567 ┌ ─ ┐ └ ─ ┘ │
-		
-		String ret = "┌─────┐\n" + //1
-	                 "│##   │\n" + //2
-				     "│  *  │\n" + //3
-				     "│   ##│\n" + //4
-				     "└─────┘";    //5
-		String spc = getNumero().equals("10") ? "" : " ";
-		ret = ret.replaceFirst("##", getNumero() + spc);
-		ret = ret.replace("*", getNaipe());
-		ret = ret.replaceFirst("##", spc + getNumero());
-		
-		return ret;
-	}
+	
 	private void setNaipe(int naipe) {
 		if (naipe<0 || naipe>3) {
 			System.out.println("Naipe inválido!");
@@ -61,4 +46,22 @@ public class Carta {
 	private void setValor(int valor) {
 		this.valor = valor;
 	}
-}
+
+	@Override
+	public String toString() {
+		            //1234567 ┌ ─ ┐ └ ─ ┘ │
+		
+		String ret = "┌─────┐\n" + //1
+	                 "│##   │\n" + //2
+				     "│  *  │\n" + //3
+				     "│   ##│\n" + //4
+				     "└─────┘";    //5
+		String spc = getNumero().equals("10") ? "" : " ";
+		ret = ret.replaceFirst("##", getNumero() + spc);
+		ret = ret.replace("*", getNaipe());
+		ret = ret.replaceFirst("##", spc + getNumero());
+		
+		return ret;
+	}
+}	
+
