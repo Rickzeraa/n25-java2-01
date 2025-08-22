@@ -1,0 +1,5 @@
+package br.com.senaisp.bauru.secao08.aula15;
+
+public class PessoaFisica extends Pessoa {
+
+}

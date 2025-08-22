@@ -1,6 +1,6 @@
-package br.com.senaisp.bauru.secao06.aula12;
+package br.com.senaisp.bauru.secao08.aula15;
 
-public class TicTacTest {
+public class ExemploExcecao {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

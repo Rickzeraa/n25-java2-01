@@ -1,0 +1,11 @@
+package br.com.senaisp.bauru.secao08.aula15;
+
+public class PessoaJuridica extends Pessoa {
+
+	@Override
+	protected boolean isDocumentoValido(String documento2) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
