@@ -2,31 +2,34 @@ package br.com.senaisp.bauru.secao08.aula15;
 
 public class PessoaTest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
     Pessoa pe01 = new PessoaFisica();
     Pessoa pe02 = new PessoaJuridica();
     pe01.setNome("Roberval da Silva");
     pe01.setEndereco("Rua das Ruas, 1234");
     try {
 		pe01.setDocumento("123.456.789-09");
+	} catch (DocumentoException e) {
+		System.out.println("O documento está inválido!");
+	} catch (EnderecoException e) {
+		System.out.println("O endereço deve ser preenchido!");
 	} catch (Exception e) {
 		e.printStackTrace();
 	}
     pe01.setDataNascimento("20/05/1999");
     
     pe02.setNome("Roberval da Silva 2");
-    pe02.setEndereco("Rua das Ruas, 12345");
     try {
+    	pe02.setEndereco("Rua das Ruas, 12345");
 		pe02.setDocumento("123.456.789-10");
-	} catch (Exception e) {
-		e.printStackTrace();
-	}
+    } catch (DocumentoException e) {
+    	System.out.println("O documento esta inválido!");
+    } catch (EnderecoExeception e) {
+    	System.out.println("O endereco deve ser preenchido!");
+    } catch (Exception e) {
+    	e.printStackTrace();
+    }
     pe02.setDataNascimento("20/05/1990");
-    
     
     System.out.println(pe01);
     System.out.println(pe02);
-    
-	}
-
-}
