@@ -1,0 +1,14 @@
+package br.com.senaisp.bauru.richard.classes;
+
+public class ConectorBancoDados {
+	private static ConectorBancoDados instancia = null;
+	private ConectorBancoDados() {
+		//
+	}
+	public ConectorBancoDados getInstancia() {
+		if (instancia == null) {
+			instancia =  new ConectorBancoDados();
+		}
+		return instancia;
+	}
+}

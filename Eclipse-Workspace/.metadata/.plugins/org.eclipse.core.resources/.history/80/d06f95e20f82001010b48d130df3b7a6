@@ -1,0 +1,10 @@
+package br.com.senaisp.bauru.richard.test;
+
+public class ConectorBancoDadosTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

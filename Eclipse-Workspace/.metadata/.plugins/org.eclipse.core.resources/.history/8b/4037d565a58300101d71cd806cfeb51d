@@ -1,0 +1,18 @@
+package br.com.senaisp.bauru.richard.test;
+
+import java.sql.SQLException;
+
+import br.com.senaisp.bauru.richard.classes.Produto;
+
+public class ProdutoTest {
+
+	public static void main(String[] args) {
+		try {
+			Produto prd = Produto.create("Produto xpto", 5.0, 15.20);
+			System.out.println("Produto " + prd.getId());
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

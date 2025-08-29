@@ -1,0 +1,29 @@
+package br.com.senaisp.bauru.richard.classes;
+
+public class ConectorBancoDados {
+	private static ConectorBancoDados instancia = null;
+	private String connStr;
+	private ConectorBancoDados() {
+		connStr = "Sou a string de conexão";
+		String tabela = """
+				CREATE TABLE produto (
+    id        INTEGER         PRIMARY KEY AUTOINCREMENT
+                              NOT NULL,
+    descricao TEXT (100)      NOT NULL,
+    saldo     NUMERIC (15, 2) NOT NULL,
+    preco     NUMERIC (15, 2) NOT NULL
+);
+
+				""";
+	}
+	//Isso é chamado pattern Singleton
+	public static ConectorBancoDados getInstancia() {
+		if (instancia == null) {
+			instancia =  new ConectorBancoDados();
+		}
+		return instancia;
+	}
+	public String getConnStr() {
+		return connStr;
+	}
+}

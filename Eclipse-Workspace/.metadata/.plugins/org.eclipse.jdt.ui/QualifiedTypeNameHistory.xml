@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao04.aula08.Calculadora"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao04.aula10.CalculoBaskara"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao05.aula11.TicTacToe"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao06.aula12.TicTacToe"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao08.aula13.Baralho"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao08.aula13.BlackJackGame"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao05.aula11.Carta"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao08.aula13.BlackJackPlayer"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao08.aula15.PessoaFisica"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao08.aula15.PessoaJuridica"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao08.aula15.EnderecoException"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao08.aula15.DocumentoException"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.PreparableStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.classes.ConectorBancoDados"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.classes.Produto"/>
+</qualifiedTypeNameHistroy>

@@ -1,2 +1,2 @@
 # n25-java2-01
-Repositório de códigos do curso  de Java Foundations - Senai Bauru
+Repositório do Curso de Java Foundations para a turma N25-Java2-01 - Senai Bauru
