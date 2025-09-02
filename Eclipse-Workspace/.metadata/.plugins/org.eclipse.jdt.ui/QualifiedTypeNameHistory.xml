@@ -18,7 +18,6 @@
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao08.aula15.PessoaFisica"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao08.aula15.PessoaJuridica"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao08.aula15.EnderecoException"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao08.aula15.DocumentoException"/>
@@ -34,4 +33,5 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.classes.Produto"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 </qualifiedTypeNameHistroy>
