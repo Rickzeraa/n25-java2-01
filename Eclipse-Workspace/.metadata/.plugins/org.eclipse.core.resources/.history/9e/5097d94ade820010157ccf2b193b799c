@@ -1,8 +1,0 @@
-package br.com.senaisp.bauru.richard.classes;
-
-public class Produto {
-	private int id;
-	private String descricao;
-	private double saldo;
-	private double preco;
-}
