@@ -1,0 +1,36 @@
+package br.com.senaisp.bauru;
+
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
+
+public class JavaFX_Main extends Application {
+	@Override
+	public void start(primaryStage arg0) throws Exception {
+		Button btn = new Button();
+		btn.setText("Diga \"Olá Mundo!\"");
+		btn.setOnAction(new EventHandler<ActionEvent>() {
+			
+			@Override
+			public void handle(ActionEvent arg0) {
+				System.out.println("Olá mundo!");				
+			}
+		});
+		
+		StackPane root = new StackPane();
+		root.getChildren().add(btn); //adicionando o botão no painel
+		//                          altura, comprimento
+		Scene cena = new Scene(root,300,500);
+		primaryStage.setTiltle("Minha primeira janela no JavaFX");
+		primaryStage.setScene(cena); //Atribuindo a cena para a janela
+		primaryStage.show();		
+	}
+	
+	public static void main(String[]args) {
+		launch(args);
+	}
+}
