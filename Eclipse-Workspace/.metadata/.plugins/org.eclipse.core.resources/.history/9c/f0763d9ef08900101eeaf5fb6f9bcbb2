@@ -1,0 +1,22 @@
+package br.com.senaisp.bauru;
+
+import javafx.application.Application;
+import javafx.scene.Group;
+import javafx.stage.Stage;
+
+public class JavaFXExemplo03 extends Application {
+
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		Group noRoot = new Group();
+		//Criar o trinagulo
+		
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
