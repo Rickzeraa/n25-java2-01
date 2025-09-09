@@ -3,7 +3,7 @@
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-21"/>
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo.comments" value="false"/>
-	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
+	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="true"/>
 	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\javalibs\javafx_libraries\javafx-sdk-17.0.16\lib"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
@@ -40,8 +40,8 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="138"/>
-		<item key="DIALOG_Y_ORIGIN" value="92"/>
+		<item key="DIALOG_X_ORIGIN" value="858"/>
+		<item key="DIALOG_Y_ORIGIN" value="184"/>
 		<item key="DIALOG_WIDTH" value="574"/>
 		<item key="DIALOG_HEIGHT" value="659"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

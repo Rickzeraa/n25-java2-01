@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao04.aula08.Calculadora"/>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao04.aula10.CalculoBaskara"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
@@ -35,7 +31,6 @@
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.richard.classes.Produto"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="javax.management.InvalidApplicationException"/>
-    <fullyQualifiedTypeName name="javafx.application.Application"/>
     <fullyQualifiedTypeName name="javafx.event.EventHandler"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.StackPane"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.TilePane"/>
@@ -53,8 +48,16 @@
     <fullyQualifiedTypeName name="javafx.scene.shape.StrokeLineJoin"/>
     <fullyQualifiedTypeName name="javafx.scene.effect.DropShadow"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.Priority"/>
-    <fullyQualifiedTypeName name="javafx.scene.Group"/>
     <fullyQualifiedTypeName name="javafx.scene.shape.Polygon"/>
-    <fullyQualifiedTypeName name="javafx.scene.paint.Color"/>
+    <fullyQualifiedTypeName name="javafx.scene.paint.CycleMethod"/>
+    <fullyQualifiedTypeName name="javafx.scene.paint.LinearGradient"/>
+    <fullyQualifiedTypeName name="javafx.scene.paint.RadialGradient"/>
+    <fullyQualifiedTypeName name="javafx.application.Application"/>
+    <fullyQualifiedTypeName name="javafx.scene.Group"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="javafx.scene.Scene"/>
+    <fullyQualifiedTypeName name="javafx.scene.paint.Color"/>
+    <fullyQualifiedTypeName name="javafx.scene.media.Media"/>
+    <fullyQualifiedTypeName name="javafx.scene.media.MediaPlayer"/>
+    <fullyQualifiedTypeName name="javafx.scene.media.MediaView"/>
 </qualifiedTypeNameHistroy>
