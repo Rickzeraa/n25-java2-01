@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao04.aula10.CalculoBaskara"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="br.com.senaisp.bauru.secao05.aula11.TicTacToe"/>
@@ -39,8 +38,6 @@
     <fullyQualifiedTypeName name="java.awt.Rectangle"/>
     <fullyQualifiedTypeName name="javafx.scene.shape.Rectangle"/>
     <fullyQualifiedTypeName name="javafx.scene.text.Text"/>
-    <fullyQualifiedTypeName name="javafx.scene.image.ImageView"/>
-    <fullyQualifiedTypeName name="javafx.scene.image.Image"/>
     <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
     <fullyQualifiedTypeName name="javafx.scene.text.Font"/>
     <fullyQualifiedTypeName name="javafx.scene.shape.StrokeType"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="javafx.scene.media.Media"/>
     <fullyQualifiedTypeName name="javafx.scene.media.MediaPlayer"/>
     <fullyQualifiedTypeName name="javafx.scene.media.MediaView"/>
+    <fullyQualifiedTypeName name="javafx.scene.image.Image"/>
+    <fullyQualifiedTypeName name="javafx.scene.media.AudioClip"/>
+    <fullyQualifiedTypeName name="javafx.scene.image.ImageView"/>
 </qualifiedTypeNameHistroy>

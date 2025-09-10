@@ -1,0 +1,7 @@
+package br.com.senaisp.bauru.classes;
+
+import javafx.scene.Group;
+
+public class Duke extends Group {
+
+}
